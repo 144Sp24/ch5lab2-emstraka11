@@ -1,6 +1,6 @@
 /*
-Author: Maria Cruz
-Date: Current Date
+Author: Emma Straka
+Date: Feb 14, 2023
 File Name: styles.css
 */
 
@@ -21,6 +21,31 @@ img {
     display: block;
 }
 
+/* Syle rules for mobile viewport */
+
+
+/* Style rules to show mobile class and hide tab-desk class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Style rules fot header area */
+.mobile h1 {
+    padding: 2%;
+    text-align: center;
+    font-family: "Emblema One", system-ui;
+}
+
+.mobile h3 {
+    padding: 2%;
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
 /* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
@@ -28,15 +53,16 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     text-align: center;
 }
 
 nav li {
-    display: inline-block;
+    display: block;
     font-size: 1.5em;
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
+    border-top: 0.5px;
+    color: #f6eee4;
 }
 
 nav li a {
@@ -77,8 +103,38 @@ main ul {
     text-align: center;
 }
 
+.round {
+    border-radius: 6px;
+}
+
+#info ul { 
+    margin-left: 10%;
+}
+
 #contact {
     text-align: center;
+}
+
+.tel-link {
+    background-color: #2a1fa4;
+    padding: 2%;
+    width: 80%;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tel-link a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 /* Style rules for footer content */
